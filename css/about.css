@@ -1,0 +1,27 @@
+/* General styles for the about page */
+.about {
+    padding: 2rem;
+    text-align: center;
+}
+
+.about h1 {
+    margin-bottom: 1.5rem;
+}
+
+.about p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .about {
+        padding: 1rem;
+    }
+
+    .about p {
+        font-size: 1rem;
+    }
+}

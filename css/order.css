@@ -1,0 +1,70 @@
+/* General styles for the order summary page */
+.order-summary {
+    padding: 2rem;
+    text-align: center;
+}
+
+.order-summary h1 {
+    margin-bottom: 1.5rem;
+}
+
+.order-summary table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+.order-summary th, .order-summary td {
+    border: 1px solid #ddd;
+    padding: 0.75rem;
+    text-align: left;
+}
+
+.order-summary th {
+    background-color: #f4f4f4;
+}
+
+.order-summary tfoot td {
+    font-weight: bold;
+}
+
+.order-summary .btn {
+    background: #ff6f61;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+.order-summary .btn:hover {
+    background: #e65c50;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .order-summary table, .order-summary th, .order-summary td {
+        display: block;
+        width: 100%;
+    }
+
+    .order-summary th, .order-summary td {
+        text-align: right;
+        padding-left: 50%;
+        position: relative;
+    }
+
+    .order-summary th::before, .order-summary td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 0.75rem;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .order-summary tfoot td {
+        text-align: right;
+    }
+}
