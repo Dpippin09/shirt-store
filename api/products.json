@@ -1,0 +1,31 @@
+[
+    {
+        "id": 1,
+        "name": "Product 1",
+        "description": "A high-quality t-shirt with a unique design.",
+        "price": 19.99,
+        "image": "images/product1.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Product 2",
+        "description": "A comfortable and stylish t-shirt.",
+        "price": 24.99,
+        "image": "images/product2.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Product 3",
+        "description": "A trendy t-shirt for everyday wear.",
+        "price": 22.99,
+        "image": "images/product3.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Product 4",
+        "description": "A classic t-shirt with a modern twist.",
+        "price": 18.99,
+        "image": "images/product4.jpg"
+    }
+   
+]

@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "password": "hashed_password_1",
+        "address": {
+            "street": "123 Main St",
+            "city": "Anytown",
+            "state": "CA",
+            "zip": "12345"
+        }
+    },
+    {
+        "id": 2,
+        "name": "Jane Smith",
+        "email": "jane.smith@example.com",
+        "password": "hashed_password_2",
+        "address": {
+            "street": "456 Oak St",
+            "city": "Othertown",
+            "state": "NY",
+            "zip": "67890"
+        }
+    }
+    
+]
