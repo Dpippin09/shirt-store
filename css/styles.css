@@ -8,12 +8,12 @@
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
-    background-color: #90e0ef;
+    background-color: #AF9AB2;
     color: #333;
 }
 
 header {
-    background: #c0c0c0;
+    background: #ffefd7;
     color: #fff;
     padding: 1rem 0;
     text-align: center;
@@ -68,8 +68,8 @@ nav ul li a {
 }
 
 .hero {
-    background: #0fa3b1;
-    color: #faa307;
+    background: #820B8A;
+    color: #ffefd7;
     padding: 2rem 0;
     text-align: center;
 }
@@ -117,8 +117,8 @@ nav ul li a {
 }
 
 footer {
-    background: #333;
-    color: #fff;
+    background: #ffefd7;;
+    color: #1a1919;
     text-align: center;
     padding: 1rem 0;
     margin-top: 2rem;
